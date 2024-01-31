@@ -18,7 +18,7 @@ public class OllionTest {
 		Actions act=new Actions(driver);
 		
 		driver.get("https://stackoverflow.com/");
-		//driver.switchTo().alert().accept();
+		
 		WebElement cookies= driver.findElement(By.xpath("//button[text()='Accept all cookies']"));
 		cookies.click();
 		
